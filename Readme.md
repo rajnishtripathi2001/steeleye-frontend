@@ -17,7 +17,7 @@
 
 #### Q). What problem / warnings are there with code ?
 
-Following are the problems with the given code :
+>Following are the problems with the given code :
 > - In **WrappedSingleListItem**, the **isSelected** prop is not being passed correctly.
 > - In **WrappedSingleListItem**, the **onClickHandler** function should be wrapped in an arrow function to avoid calling the function during the rendering process.
 > - In **WrappedListComponent**, the **handleClick** function should be defined outside of the component to prevent it from being recreated on every render.
@@ -25,9 +25,9 @@ Following are the problems with the given code :
 > - In **WrappedListComponent**, the useState hook is not used correctly.
 > - In **WrappedListComponent**, the default value for items should be an empty array instead of null.
 
-Warraing we get when we run this code is :
+> Warraing we get when we run this code is :
 ```
-Warning: Failed prop type: The prop `isSelected` is marked as required in `SingleListItem`, but its value is `undefined`.
+Warning: Failed prop type: The prop isSelected is marked as required in SingleListItem, but its value is undefined.
 ```
 
 ### Fixed and Optimized Code is in [ModifiedCode.js](ModifiedCode.js) file
