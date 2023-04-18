@@ -24,8 +24,10 @@ Following are the problems with the given code :
 > - In **WrappedListComponent**, the **items** prop type is not defined correctly. 
 > - In **WrappedListComponent**, the useState hook is not used correctly.
 > - In **WrappedListComponent**, the default value for items should be an empty array instead of null.
-<br><br>
+
 Warraing we get when we run this code is :
 ```
 Warning: Failed prop type: The prop `isSelected` is marked as required in `SingleListItem`, but its value is `undefined`.
 ```
+
+### Fixed and Optimized Code is in [ModifiedCode.js](ModifiedCode.js) file
